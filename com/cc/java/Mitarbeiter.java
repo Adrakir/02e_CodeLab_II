@@ -1,6 +1,6 @@
-package com.cc.java
+//package com.cc.java
 
-pucblic class Mitarbeiter {
+public class Mitarbeiter {
     protected String name;
     protected String vorname;
     protected String funktion;
