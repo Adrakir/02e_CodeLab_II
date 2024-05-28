@@ -1,5 +1,3 @@
-package com.cc.java
-
 public class Mitarbeiter {
     protected String name;
     protected String vorname;
