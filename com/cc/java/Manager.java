@@ -1,5 +1,3 @@
-package com.cc.java
-
 class Manager extends Mitarbeiter {
     private String abteilung;
 
