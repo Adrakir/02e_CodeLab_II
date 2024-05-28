@@ -12,14 +12,9 @@ public class App {
         Mitarbeiter mitarbeiter9 = new Mitarbeiter("Holterhus", "Thorsten", "Entwickler", 2022);
         Mitarbeiter mitarbeiter10 = new Mitarbeiter("Pirelli", "Franjo", "Bürokaufmann", 2023);
         // Ausgabe der Informationen
-        System.out.println(mitarbeiter1.getInfo(true)); 
-        System.out.println(mitarbeiter2.getInfo(true)); 
-        System.out.println(mitarbeiter3.getInfo(true));      
-        System.out.println(mitarbeiter4.getInfo(true)); 
-        System.out.println(mitarbeiter5.getInfo(true)); 
-        System.out.println(mitarbeiter6.getInfo(true));    
-        System.out.println(mitarbeiter7.getInfo(true));      
-        System.out.println(mitarbeiter8.getInfo(true)); 
-        System.out.println(mitarbeiter9.getInfo(true)); 
-        System.out.println(mitarbeiter10.getInfo(true));    
-        }}
+    int counter = 1; // Start bei Mitarbeiter 1
+
+do {
+    System.out.println("mitarbeiter" + counter + ".getInfo(true)");
+    counter++; // Nächster Mitarbeiter
+} while (counter <= 10);}
