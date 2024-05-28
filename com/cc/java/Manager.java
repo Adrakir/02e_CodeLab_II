@@ -6,9 +6,6 @@ class Manager extends Mitarbeiter {
         super(name, vorname, funktion, eintrittsjahr); // Aufruf des Basisklassenkonstruktors
         this.abteilung = abteilung;
     }
-
-    // Überschreiben der getInfo-Methode
-    @Override
     public String getInfo(boolean details) {
         return super.getInfo(details) + ", Abteilung: " + abteilung; }
     }
