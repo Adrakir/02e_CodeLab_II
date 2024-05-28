@@ -7,4 +7,4 @@ public class App {
 
         System.out.println(mitarbeiter1.getInfo());
         System.out.println(mitarbeiter2.getInfo(true));
-        System.out.println(manager.getInfo(true, true));
+        System.out.println(manager.getInfo(true, true));}}
